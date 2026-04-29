@@ -1,0 +1,31 @@
+{
+  "name": "pi-chatgpt-usage-status",
+  "version": "0.1.0",
+  "description": "Pi extension that shows ChatGPT 5h and weekly rate-limit usage in the status bar.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "chatgpt",
+    "openai",
+    "codex",
+    "rate-limit",
+    "status-bar"
+  ],
+  "license": "MIT",
+  "files": [
+    "extensions"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  },
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "@types/node": "^25.6.0"
+  }
+}
